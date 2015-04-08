@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Knockout.DuoCode</id>
+    <version>1.0</version>
+    <authors>Anders Malmgren</authors>
+    <owners>Anders Malmgren</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/AndersMalmgren/Knockout.DuoCode</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>A DuoCode Binding for KnockoutJS</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>knockout mvvm DuoCode C#</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+</package>

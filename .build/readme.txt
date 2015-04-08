@@ -1,0 +1,1 @@
+Please see https://github.com/AndersMalmgren/Knockout.DuoCode/wiki for more information on using this lib.
