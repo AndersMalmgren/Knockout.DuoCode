@@ -1,7 +1,7 @@
 ﻿using System;
 using DuoCode.Runtime;
 
-namespace Knockout.DuoCode
+namespace Knockout
 {
     [Js(Name = "ko", Extern = true)]
     public static class Global

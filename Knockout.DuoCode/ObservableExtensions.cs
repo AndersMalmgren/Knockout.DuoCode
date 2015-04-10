@@ -1,7 +1,8 @@
 using System;
 using DuoCode.Runtime;
+using Knockout.ObserverableExtenders;
 
-namespace Knockout.DuoCode
+namespace Knockout
 {
     public static class ObservableExtensions
     {
@@ -13,6 +14,11 @@ namespace Knockout.DuoCode
         public static T Get<T>(this Observable<T> observable)
         {
             return observable.As<Func<T>>()();
+        }
+
+        public static ExtendResult<T> Extend<T>(this Observable<T> observable)
+        {
+            return new ExtendResult<T>(observable);
         }
     }
 }

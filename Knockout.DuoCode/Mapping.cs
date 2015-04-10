@@ -1,6 +1,6 @@
 ﻿using DuoCode.Runtime;
 
-namespace Knockout.DuoCode
+namespace Knockout
 {
     [Js(Name = "ko.mapping", Extern = true)]
     public static class Mapping

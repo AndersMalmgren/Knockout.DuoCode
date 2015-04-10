@@ -1,7 +1,7 @@
 ﻿using System;
 using DuoCode.Runtime;
 
-namespace Knockout.DuoCode
+namespace Knockout
 {
     [Js(Name = "ko.observable", Extern = true)]
     public class Observable<T>
@@ -10,6 +10,6 @@ namespace Knockout.DuoCode
         public extern Subscription Subscribe(Action<T> value);
 
         [Js(Name = "extend")]
-        public extern Observable<T> Extend(object options);
+        internal extern Observable<T> Extend(object options);
     }
 }
