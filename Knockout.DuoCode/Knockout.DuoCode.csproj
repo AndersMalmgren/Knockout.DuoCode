@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9857C911-28DA-4A51-B98D-3A015B4B8D0B}</ProjectGuid>
+    <ProjectGuid>{732661B6-2A27-488A-B5B1-EA2F2D575139}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Knockout</RootNamespace>
